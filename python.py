@@ -53,3 +53,25 @@ print(preco / 2)
 print(preco // 2)
 
 #numerico para string
+
+preco = 10.50
+idade = 28
+
+print(str(preco , idade))
+
+texto = f"idade {idade} {preco}"
+print(texto)
+
+# de string para número
+
+preco = "10.50"
+idade = "28"
+
+print(float(preco))
+
+print(int(idade))
+
+# funções de entrada e saida python
+
+# ex
+nome = input("informe seu nome")
