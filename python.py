@@ -9,3 +9,47 @@ print("hello world")
 # booleano são bool
 # binario são bytes, bytearray, memoryview
 
+# variaveis
+
+age = 21
+name = 'gilmar'
+print(f'meu nome é {name} e eu tenho {age} anos')
+
+#constante
+
+NOME = "gilmar"
+
+# convertendo tipos
+# inteiro para float
+
+preco = 10
+print(preco)
+
+#convertendo de int para float
+
+preco = float(preco)
+print(preco)
+
+#mais um exemplo
+
+preco = 10/2
+print(preco)
+
+# de float para int
+
+preco = 10.30
+print(preco)
+
+preco = int(preco)
+print(preco)
+
+# conversão por divisão
+
+preco = 10 
+print(preco)
+
+print(preco / 2)
+
+print(preco // 2)
+
+#numerico para string
